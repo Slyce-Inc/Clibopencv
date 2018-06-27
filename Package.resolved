@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Clibfreetype",
+        "repositoryURL": "https://github.com/theia-ai/Clibfreetype.git",
+        "state": {
+          "branch": "master",
+          "revision": "9ea0ef4b5648d15dcad768431b52e20a5883853e",
+          "version": null
+        }
+      },
+      {
+        "package": "Clibharfbuzz",
+        "repositoryURL": "https://github.com/theia-ai/Clibharfbuzz.git",
+        "state": {
+          "branch": "master",
+          "revision": "ee0eeb2da226612f0c59631b0388ba20a9ff4647",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

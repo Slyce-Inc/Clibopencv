@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "libopencv",
+    name: "Clibopencv",
     pkgConfig: "opencv",
     providers: [
         .apt(["libopencv-dev"])
     ],
-    products: [ .library(name: "libopencv", targets: ["libopencv"]) ],
+    products: [ .library(name: "Clibopencv", targets: ["Clibopencv"]) ],
     dependencies: [
     ]
 )

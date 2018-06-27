@@ -1,4 +1,4 @@
-module libopencv [system] {
+module Clibopencv [system] {
   header "shim.h"
   link "opencv_core"
   link "opencv_shape"

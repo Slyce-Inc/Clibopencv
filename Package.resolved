@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "Clibfreetype",
-        "repositoryURL": "git@githb.com:ilmco/Clibfreetype.git",
+        "repositoryURL": "git@github.com:ilmco/Clibfreetype.git",
         "state": {
           "branch": "master",
           "revision": "9ea0ef4b5648d15dcad768431b52e20a5883853e",
@@ -12,7 +12,7 @@
       },
       {
         "package": "Clibharfbuzz",
-        "repositoryURL": "git@githb.com:ilmco/Clibharfbuzz.git",
+        "repositoryURL": "git@github.com:ilmco/Clibharfbuzz.git",
         "state": {
           "branch": "master",
           "revision": "ee0eeb2da226612f0c59631b0388ba20a9ff4647",

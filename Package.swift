@@ -10,8 +10,8 @@ let package = Package(
   ],
   products: [ .library(name: "Clibopencv", targets: ["Clibopencv"]) ],
   dependencies: [
-    .package(url: "https://github.com/theia-ai/Clibfreetype.git", .branch("master")),
-    .package(url: "https://github.com/theia-ai/Clibharfbuzz.git", .branch("master")),
+    .package(url: "git@github.com:ilmco/Clibfreetype.git", .branch("master")),
+    .package(url: "git@github.com:ilmco/Clibharfbuzz.git", .branch("master")),
   ],
   targets: [
     .target(

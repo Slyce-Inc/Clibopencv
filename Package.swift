@@ -1,21 +1,21 @@
-// swift-tools-version:4.0
+// swift-tools-version:4.2
 
 import PackageDescription
 
 let package = Package(
   name: "Clibopencv",
-  pkgConfig: "opencv",
-  providers: [
-    .apt(["libopencv-dev"])
+  products: [
+    .library(name: "Clibopencv", targets: ["Clibopencv"]),
+    .library(name: "OpenCV", targets: ["OpenCV"])
   ],
-  products: [ .library(name: "Clibopencv", targets: ["Clibopencv"]) ],
   dependencies: [
     .package(url: "git@github.com:ilmco/Clibfreetype.git", .branch("master")),
     .package(url: "git@github.com:ilmco/Clibharfbuzz.git", .branch("master")),
   ],
   targets: [
+    .systemLibrary(name:"Clibopencv", pkgConfig: "opencv"),
     .target(
-      name: "Clibopencv",
+      name: "OpenCV",
       dependencies: [
         "Clibharfbuzz",
         "Clibfreetype"

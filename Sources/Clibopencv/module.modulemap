@@ -1,5 +1,5 @@
-module Clibopencv [system] {
-  header "shim.h"
+module Foo [system] {
+  umbrella header "opencv2/opencv.hpp"
   link "opencv_core"
   link "opencv_shape"
   link "opencv_dnn"

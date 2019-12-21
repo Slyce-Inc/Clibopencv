@@ -9,8 +9,8 @@ let package = Package(
     .library(name: "OpenCV", targets: ["OpenCV"])
   ],
   dependencies: [
-    .package(url: "git@github.com:Slyce-Inc/Clibfreetype.git", .branch("master")),
-    .package(url: "git@github.com:Slyce-Inc/Clibharfbuzz.git", .branch("master")),
+    .package(url: "https://github.com/Slyce-Inc/Clibfreetype.git", .branch("master")),
+    .package(url: "https://github.com/Slyce-Inc/Clibharfbuzz.git", .branch("master")),
   ],
   targets: [
     .systemLibrary(name:"Clibopencv", pkgConfig: "opencv"),

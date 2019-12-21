@@ -13,7 +13,7 @@ let package = Package(
     .package(url: "https://github.com/Slyce-Inc/Clibharfbuzz.git", .branch("master")),
   ],
   targets: [
-    .systemLibrary(name:"Clibopencv", pkgConfig: "opencv"),
+    .systemLibrary(name:"Clibopencv", pkgConfig: "opencv4"),
     .target(
       name: "OpenCV",
       dependencies: [

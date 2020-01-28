@@ -19,7 +19,7 @@ let versionToUse = "opencv"
 
 
 let package = Package(
-  name: "Clibopencv",
+  name: "swift-opencv",
   products: [
     .library(name: "Clibopencv", targets: ["Clibopencv"]),
     .library(name: "OpenCV", targets: ["OpenCV"])
